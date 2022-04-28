@@ -1,0 +1,76 @@
+.home-body-container {
+    // border: 1px solid red;
+    // padding-left: 63px;
+    width: 95.53%;
+    height: 746px;
+    // overflow: scroll;
+    position: fixed;
+    margin-left: 70px;
+
+    .home-body-content {
+        margin: auto;
+        width: 1182px;
+        height: 100%;
+        margin-top: 20px;
+        display: flex;
+
+        .wrap-body {
+            // border: 1px solid red;
+            width: 100%;
+            height: 100%;
+            padding-right: 0px;
+
+            .center-body-content {
+                // border: 1px solid blue;
+                height: 100%;
+                display: flex;
+                padding: 0px 15px;
+                flex-direction: column;
+                position: relative;
+
+                .welcome {
+                    display: flex;
+                    background-color: #fff;
+                    position: relative;
+                    width: 100%;
+                    border: 1px solid #eee;
+                    border-radius: 8px;
+                    flex-direction: column;
+                    padding: 15px;
+                    margin-bottom: 20px;
+
+                    .emojione {
+                        font-size: inherit;
+                        height: 2ex;
+                        width: 2.1ex;
+                        min-height: 20px;
+                        min-width: 20px;
+                        display: inline-block;
+                        margin: -0.2ex 0.15em 0.2ex;
+                        line-height: normal;
+                        vertical-align: middle;
+                        max-width: 100%;
+                        top: 0;
+                    }
+
+                    .text-title {
+                        padding-bottom: 6px;
+                        margin-bottom: 12px;
+                        text-align: left;
+                        color: #333;
+                        font-size: 20px;
+                        border: none;
+                        border-bottom: 1px solid #e9ebee;
+                        font-weight: 600;
+                    }
+                    .description {
+                        font-size: 16px;
+                        color: #1d2129;
+                        font-weight: 400;
+                        letter-spacing: 0.01em !important;
+                    }
+                }
+            }
+        }
+    }
+}

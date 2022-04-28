@@ -1,0 +1,47 @@
+.card-data {
+    cursor: pointer;
+    transition-duration: 0.3s;
+    background-color: #dfe6e95e;
+    &:hover {
+        // border: 1px solid red;
+        transform: scale(1.03, 1.03);
+        // box-shadow: 0px 0px 20px #888888;
+    }
+    .fas {
+        // border: 1px solid red;
+        font-size: 14px;
+        margin-right: 7px;
+        padding-top: 5.5px;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        border-radius: 7px;
+        &.fa-users {
+            background-color: #e84393;
+            color: #fff;
+        }
+        &.fa-map-marker-alt {
+            background-color: #00b894;
+            color: #fff;
+        }
+        &.fa-thumbtack {
+            background-color: #6c5ce7;
+            color: #fff;
+        }
+        &.fa-address-card {
+            background-color: #ff7675;
+            color: #fff;
+        }
+    }
+}
+
+.centered {
+    position: absolute;
+    // top: 20%;
+    // left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-white {
+    color: #fff;
+}

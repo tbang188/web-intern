@@ -1,0 +1,11 @@
+{
+  "name": "react-app-quan-ly-thuc-tap-10-2021",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

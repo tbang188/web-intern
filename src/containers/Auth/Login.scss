@@ -1,0 +1,149 @@
+.text-bold {
+    font-weight: 600;
+}
+
+.text-decoration {
+    text-decoration: underline !important;
+    color: #888888 !important;
+}
+
+.login-background {
+    // border-color: 5px solid red;
+    background-color: #fafafa;
+    background: url(../../assets/login-bg.png) center center no-repeat;
+    height: 100vh;
+
+    .login-container {
+        width: 505px;
+        height: 550px;
+        background: #fff;
+        padding: 40px;
+        border-radius: 8px;
+        border: 1px solid #eee;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        .login-content {
+            .logo-wrapper {
+                display: flex;
+                align-items: center;
+                .logo {
+                    background: url(../../assets/logo-35px.png) center center
+                        no-repeat;
+                    width: 35px;
+                    height: 35px;
+                    margin-right: 10px;
+                }
+                .logo-cit {
+                    background: url(../../assets/logo-cit-35px.png) center
+                        center no-repeat;
+                    width: 35px;
+                    height: 35px;
+                    margin-right: 10px;
+                }
+                .logo-ctu {
+                    background: url(../../assets/logo-ctu-35px.png) center
+                        center no-repeat;
+                    width: 35px;
+                    height: 35px;
+                    margin-right: 10px;
+                }
+            }
+
+            .text-login {
+                font-weight: 600;
+                font-size: 24px;
+                padding: 15px 10.5px 0px;
+            }
+
+            .description {
+                font-size: 16px;
+                margin: 0px 0px 20px;
+                padding: 1px 10.5px 0px;
+            }
+
+            .login-input {
+                font-size: 14px;
+                font-weight: 600;
+                margin: 0px 0px 25px;
+
+                .form-control {
+                    font-size: 18px;
+                    border: 1px solid #eee;
+                    color: #747d8c;
+                    border-radius: 8px;
+                    padding: 10px 16px;
+                    height: 46px;
+                    outline: none;
+                    box-shadow: none;
+                }
+                .form-control::placeholder {
+                    /* Chrome, Firefox, Opera, Safari 10.1+ */
+                    color: #bdc3c7;
+                    opacity: 1; /* Firefox */
+                }
+                .form-control:focus {
+                    border-color: #bdc3c7 !important;
+                }
+
+                .custom-input-password {
+                    position: relative;
+                    i {
+                        position: absolute;
+                        right: 15px;
+                        top: 16px;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .err-message {
+                color: #e74c3c;
+                font-weight: 600;
+                text-align: center;
+                margin: 0px 0px 10px;
+            }
+
+            .btn-login {
+                background-color: #ffdd00;
+                font-size: 18px;
+                color: black;
+                width: 100%;
+                height: 46px;
+                border-radius: 8px;
+                border-color: #ffdd00;
+                border: 1px solid #eee;
+                transition: all 0.3s linear;
+            }
+            .btn-login:hover {
+                background-color: #ffc400; /* Green */
+            }
+
+            .forgot-password {
+                font-size: 14px;
+                text-align: center;
+                color: #888888;
+                padding: 27px 0px 27px;
+            }
+
+            .email-contact {
+                display: flex;
+                justify-content: center;
+                .google {
+                    height: 50px;
+                    width: 50px;
+                    background-color: rgb(255, 255, 255);
+                    border-radius: 50%;
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                    font-size: 50px;
+                    color: #db4437;
+                }
+            }
+        }
+    }
+}

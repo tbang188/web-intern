@@ -1,0 +1,83 @@
+.rigister-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .button-rigister {
+        width: 500px;
+        height: 40px;
+        font-size: 16px;
+        font-weight: 600;
+        border: none;
+        border-radius: 30px;
+        background-color: #ff7675;
+        color: #fff;
+        transition-duration: 0.3s;
+        &:hover {
+            width: 100%;
+            background-color: #ff5858;
+        }
+    }
+    .button-rigister-done {
+        width: 500px;
+        height: 40px;
+        font-size: 16px;
+        font-weight: 600;
+        border: none;
+        background-color: #00b894;
+        color: #fff;
+        transition-duration: 0.3s;
+        width: 100%;
+        cursor: default;
+    }
+}
+
+.company-name {
+    color: #ff7675 !important;
+}
+
+.registration-form-name {
+    color: #00b894 !important;
+}
+
+.assignment-sheet-form-name {
+    color: #d63031 !important;
+}
+
+.assignment-sheet-week {
+    color: #0984e3 !important;
+}
+
+.infomation-form-name {
+    color: #6c5ce7 !important;
+}
+
+.company-detail {
+    color: #2d3436;
+}
+.company-detail-data {
+    color: #636e72;
+}
+
+.orange-text {
+    color: #e17055 !important;
+}
+
+.red-text {
+    color: #d63031 !important;
+}
+
+.purple-text {
+    color: #6c5ce7;
+}
+
+.yellow-text {
+    color: #fdcb6e !important;
+}
+
+.gray-text {
+    color: #dfe6e9 !important;
+}
+
+.green-text-dark {
+    color: #27ae60;
+}

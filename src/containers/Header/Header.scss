@@ -1,0 +1,73 @@
+@import "../../styles/common.scss";
+
+.header-container {
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    // background-color: $colormain;
+    background: rgba(255, 221, 0, 0.8);
+    // color: $common-text-color;
+    color: #2d3436;
+    font-weight: 600;
+    height: 51px;
+    position: relative;
+    align-items: center;
+    border-bottom: 1px solid #ffcd00;
+
+    .header-tabs-container {
+        // border: 1px solid blue;
+        height: 51px;
+        margin: auto 0px;
+    }
+
+    .languages {
+        .welcome {
+            margin-right: 10px;
+        }
+
+        .fa-globe {
+            color: #0655e7;
+        }
+
+        .language-en {
+            // color: #636e72;
+            margin-right: 15px;
+            margin-left: 8px;
+            cursor: pointer;
+            opacity: 0.5;
+
+            &.active {
+                opacity: 1;
+                color: #6c5ce7;
+            }
+        }
+        .language-vi {
+            // color: #636e72;
+            margin-left: 10px;
+            cursor: pointer;
+            opacity: 0.5;
+
+            &.active {
+                opacity: 1;
+                color: #d63031;
+            }
+        }
+    }
+
+    .btn-logout {
+        // color: $common-text-color;
+        // border: 1px solid red;
+        border-left: 1px solid darken(rgba(255, 221, 0, 0.8), 5);
+        color: #2d3436;
+        line-height: 51px;
+        width: 51px;
+        height: 51px;
+        // padding: 0 10px;
+        &:hover {
+            background-color: darken(rgba(255, 221, 0, 0.8), 5);
+        }
+        i {
+            font-size: $base-size + 1px;
+        }
+    }
+}

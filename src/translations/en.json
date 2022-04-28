@@ -1,0 +1,103 @@
+{
+    "home-header": {
+        "home": "Home",
+        "himyfr": "Hi myfriend!",
+        "welcome": "Welcome",
+        "cit-greet-title": "CIT Interns greet you!",
+        "cit-greet-des1": "Welcome to CIT Interns - Website Provides Search Internship Location Support Tools for Students.",
+        "cit-greet-des2": "You can search for the internship location that best suits your ability, and so much more ...",
+        "cit-greet-des3": "Is it amazing? Hope you find a suitable internship! Gud Luck!",
+        "more-information": "More Information",
+
+        "introduction": "Introduction",
+        "features": "Features",
+        "cit": "Faculty of Information Technology & Information Technology",
+        "ctu": "Can Tho University",
+        "address": "Address",
+        "ctu-address": "Area 2, 3/2 Street, Xuan Khanh Ward, Ninh Kieu District, Can Tho City, Vietnam",
+        "phone": "Phone",
+        "cit-interns-is": "is a Website that provides tools to assist students in finding internship locations for students of the Faculty of Information and Communication Technology at CTU",
+        "member-of-project": "Project participants",
+        "instructors": "Instructors",
+        "student": "Student"
+    },
+
+    "left-header": {
+        "home": "Home",
+        "form": "Form",
+        "submit": "Submit",
+        "guide": "Guide",
+        "forum": "Forum",
+        "contact": "Contact",
+        "internship-location": "Internship location",
+        "information": "Information"
+    },
+
+    "company": {
+        "internship-news": "Internship News"
+    },
+
+    "menu": {
+        "admin": {
+            "user": "Users",
+            "manage-user": "User Management",
+            "manage-user-student": "Student Management",
+            "manage-user-lecturer": "Lecturer Management",
+            "manage-user-studentmanage": "Manage academic advisor",
+            "manage-user-employee": "Employee Management",
+            "manage-user-admin": "Admin Management",
+            "crud": "CRUD user",
+            "crud-redux": "CRUD Redux",
+            "subscribe": "Subscriptions",
+            "manage-subscribe": "Manage internship subscriptions ",
+            "manage-internship-location": "Manage internship location",
+            "manage-progress": "Internship progress",
+            "manage-score": "Score Management",
+            "manage-student-support": "Inquiries Management",
+            "admission-interns": "Admission of Interns",
+            "manage-job-requirements": "Assignment sheets Management",
+            "manage-rating": "Rating Management",
+
+            "add-new-student-manager": "Add new academic advisor",
+            "add-new-lecturer": "Add new lecturer",
+            "add-new-student": "Add new student",
+            "add-new-employee": "Add new employee",
+            "add-new-admin": "Add new admin",
+
+            "edit-info": "Edit infomation",
+
+            "fullname": "Full name",
+            "phone": "Phone",
+            "address": "Address",
+            "password": "Password",
+            "staff-id": "Staff ID",
+            "student-id": "Student ID",
+            "role": "Role",
+            "action": "Action",
+            "enter": "Enter",
+            "confirm": "Confirm",
+            "close": "Close"
+        },
+
+        "studentmanager": {
+            "position": "Position"
+        },
+
+        "student": {
+            "class-id": "Class ID"
+        },
+
+        "lecturer": {
+            "academic-rank": "Academic Rank",
+            "degree": "Degree",
+            "subject-id": "Subject ID",
+            "subject": "Subject"
+        },
+
+        "employee": {
+            "position": "Position",
+            "working-part": "Working Part",
+            "company-id": "Company ID"
+        }
+    }
+}

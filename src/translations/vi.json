@@ -1,0 +1,134 @@
+{
+    "home-header": {
+        "home": "Trang chủ",
+        "himyfr": "Chào bạn!",
+        "welcome": "Xin chào",
+        "cit-greet-title": "CIT Interns chào bạn!",
+        "cit-greet-des1": "Chào mừng đến với CIT Interns - Website cung cấp công cụ hỗ trợ tìm kiếm địa điểm thực tập cho sinh viên.",
+        "cit-greet-des2": "Bạn có thể tìm kiếm địa điểm thực tập phù hợp với khả năng của mình và nhiều hơn thế...",
+        "cit-greet-des3": "Thật tuyệt zời đúng hok? Hi vọng bạn sẽ tìm được một công việc thực tập phù hợp! Chúc may mắn!",
+        "more-information": "Tìm hiểu thêm",
+
+        "introduction": "Giới thiệu",
+        "features": "Các chức năng",
+        "cit": "Khoa Công nghệ Thông tin & TT",
+        "ctu": "Trường Đại học Cần Thơ",
+        "address": "Địa chỉ",
+        "ctu-address": "Khu 2, đường 3/2, Phường Xuân Khánh, Q. Ninh Kiều, TP. Cần Thơ, Việt Nam",
+        "phone": "Số điện thoại",
+        "cit-interns-is": "là Website cung cấp công cụ hỗ trợ tìm kiếm địa điểm thực tập cho sinh viên khoa CNTT&TT trường ĐHCT.",
+        "member-of-project": "Thành phần tham gia dự án",
+        "instructors": "Giáo viên hướng dẫn",
+        "student": "Sinh viên"
+    },
+
+    "left-header": {
+        "home": "Trang chủ",
+        "form": "Biểu mẫu",
+        "submit": "Nộp báo cáo",
+        "guide": "Hướng dẫn",
+        "forum": "Trao đổi",
+        "contact": "Liên hệ",
+        "internship-location": "Địa điểm thực tập",
+        "information": "Thông tin"
+    },
+
+    "company": {
+        "internship-news": "Tin tức thực tập"
+    },
+
+    "menu": {
+        "admin": {
+            "system": "Hệ thống",
+            "system-admin": "Hệ thống | Quản trị viên",
+            "system-studentmanage": "Hệ thống | Giáo vụ",
+            "system-lecturer": "Hệ thống | Giảng viên hướng dẫn",
+            "system-employee": "Hệ thống | Cán bộ hướng dẫn",
+            "user": "Người dùng",
+            "manage-user": "Quản lý người dùng",
+            "manage-user-student": "Quản lý sinh viên",
+            "manage-user-lecturer": "Quản lý giảng viên",
+            "manage-user-studentmanage": "Quản lý giáo vụ",
+            "manage-user-employee": "Quản lý cán bộ hướng dẫn",
+            "manage-user-admin": "Quản lý admin",
+            "crud": "CRUD user",
+            "crud-redux": "CRUD Redux",
+            "subscribe": "Đăng ký thực tập",
+
+            "manage-subscribe": "Quản lý đăng ký thực tập",
+            "manage-internship-location": "Quản lý địa điểm thực tập",
+            "manage-progress": "Tiến độ thực tập",
+            "manage-score": "Quản lý điểm",
+            "manage-student-support": "Quản lý thắc mắc",
+            "admission-interns": "Tiếp nhận sinh viên",
+            "manage-job-requirements": "Quản lý phiếu giao việc",
+            "manage-rating": "Quản lý đánh giá",
+
+            "add-new-student-manager": "Thêm mới giáo vụ",
+            "add-new-lecturer": "Thêm mới giảng viên",
+            "add-new-student": "Thêm mới sinh viên",
+            "add-new-employee": "Thêm mới cán bộ hướng dẫn",
+            "add-new-admin": "Thêm mới quản trị viên",
+            "add-new-internship-location": "Thêm mới địa điểm thực tập",
+
+            "edit-info": "Chỉnh sửa thông tin",
+
+            "fullname": "Tên đầy đủ",
+            "phone": "Số điện thoại",
+            "address": "Địa chỉ",
+            "password": "Mật khẩu",
+            "staff-id": "Mã số cán bộ",
+            "student-id": "Mã số sinh viên",
+            "role": "Loại tài khoản",
+            "action": "Tùy chọn",
+            "enter": "Nhập",
+            "confirm": "Xác nhận",
+            "close": "Hủy bỏ",
+
+            "status": "Trạng thái",
+            "pending": "Chờ duyệt",
+            "approved": "Đã duyệt"
+        },
+
+        "internship-location": {
+            "company-name": "Tên cơ quan",
+            "company-id": "Mã cơ quan",
+            "company-fullname": "Tên đầy đủ của cơ quan",
+            "company-city": "Tỉnh/TP",
+            "company-address": "Địa chỉ cơ quan",
+            "company-website": "Website",
+            "company-phone": "Số điện thoại cơ quan",
+            "company-email": "Email cơ quan",
+            "employee-id": "Mã số cán bộ hướng dẫn",
+            "work-content": "Nội dung công việc dự kiến",
+            "hours/week": "Số giờ ít nhất/tuần",
+            "work-environment": "Môi trường làm việc",
+            "max-student": "Số lượng sinh viên tối đa có thể nhận",
+            "work-environment": "Môi trường làm việc",
+            "skill-requirements": "Yêu cầu đối với sinh viên",
+            "student-rights": "Quyền lợi của sinh viên",
+            "note": "Ghi chú"
+        },
+
+        "studentmanager": {
+            "position": "Chức vụ"
+        },
+
+        "student": {
+            "class-id": "Mã lớp"
+        },
+
+        "lecturer": {
+            "academic-rank": "Học hàm",
+            "degree": "Học vị",
+            "subject-id": "Mã bộ môn",
+            "subject": "Bộ môn"
+        },
+
+        "employee": {
+            "position": "Chức vụ",
+            "working-part": "Bộ phận làm việc",
+            "company-id": "Mã cơ quan"
+        }
+    }
+}

@@ -1,0 +1,504 @@
+.hover-link-text {
+    color: #2d3436 !important;
+    transition: all 0.2s linear;
+    &:hover {
+        color: #6c5ce7 !important;
+    }
+}
+
+.home-body-container {
+    // overflow: scroll;
+    // border: 1px solid red;
+    width: calc(100% - 63px);
+    // height: 746px;
+    height: calc(100% - 51px);
+    // position: fixed;
+    margin-left: 63px;
+    margin-right: 10px;
+
+    .home-body-content {
+        // border: 1px solid blue;
+        margin: auto;
+        width: 1182px;
+        height: auto;
+        margin-top: 20px;
+        display: flex;
+
+        .wrap-body {
+            // border: 1px solid red;
+            width: 100%;
+            height: 100%;
+            padding-right: 0px;
+
+            .center-body-content {
+                // border: 1px solid blue;
+                height: 100%;
+                display: flex;
+                padding: 0px 15px;
+                flex-direction: column;
+                position: relative;
+
+                .welcome {
+                    display: flex;
+                    background-color: #fff;
+                    position: relative;
+                    width: 100%;
+                    border: 1px solid #eee;
+                    border-radius: 8px;
+                    flex-direction: column;
+                    padding: 15px;
+                    margin-bottom: 20px;
+
+                    &.background-image-1 {
+                        background: url(../../assets/background-1.png) center
+                            center no-repeat;
+                    }
+
+                    &.background-image-2 {
+                        background: url(../../assets/background-2.png) center
+                            center no-repeat;
+                    }
+
+                    &.jello-horizontal {
+                        -webkit-animation: jello-horizontal 0.9s both;
+                        animation: jello-horizontal 0.9s both;
+                    }
+
+                    &.tracking-in-expand-fwd {
+                        -webkit-animation: tracking-in-expand-fwd 0.8s
+                            cubic-bezier(0.215, 0.61, 0.355, 1) both;
+                        animation: tracking-in-expand-fwd 0.8s
+                            cubic-bezier(0.215, 0.61, 0.355, 1) both;
+                    }
+
+                    .emojione {
+                        font-size: inherit;
+                        height: 2ex;
+                        width: 2.1ex;
+                        min-height: 20px;
+                        min-width: 20px;
+                        display: inline-block;
+                        margin: -0.2ex 0.15em 0.2ex;
+                        line-height: normal;
+                        vertical-align: middle;
+                        max-width: 100%;
+                        top: 0;
+                    }
+
+                    .text-title {
+                        padding-bottom: 6px;
+                        margin-bottom: 12px;
+                        text-align: left;
+                        color: #2d3436;
+                        font-size: 20px;
+                        border: none;
+                        border-bottom: 1px solid #e9ebee;
+                        font-weight: 600;
+                        &.tracking-in-expand-fwd {
+                            -webkit-animation: tracking-in-expand-fwd 0.8s
+                                cubic-bezier(0.215, 0.61, 0.355, 1) both;
+                            animation: tracking-in-expand-fwd 0.8s
+                                cubic-bezier(0.215, 0.61, 0.355, 1) both;
+                        }
+                        &.bg-color-diadiem {
+                            background: rgb(162, 155, 254);
+                            background: linear-gradient(
+                                235deg,
+                                rgba(162, 155, 254, 1) 0%,
+                                rgba(162, 155, 254, 1) 35%,
+                                rgba(108, 92, 231, 1) 100%
+                            );
+                            border-radius: 8px;
+                            padding: 15px;
+                            cursor: pointer;
+                            color: #fff;
+                            transition-duration: 0.3s;
+
+                            &:hover {
+                                transform: scale(1.026, 1.026);
+                            }
+                        }
+                        &.bg-color-mauphieu {
+                            background: rgb(85, 239, 196);
+                            background: linear-gradient(
+                                235deg,
+                                rgba(85, 239, 196, 1) 0%,
+                                rgba(85, 239, 196, 1) 35%,
+                                rgba(0, 184, 148, 1) 100%
+                            );
+                            border-radius: 8px;
+                            padding: 15px;
+                            cursor: pointer;
+                            color: #fff;
+                            transition-duration: 0.3s;
+                            &:hover {
+                                transform: scale(1.026, 1.026);
+                            }
+                        }
+                        &.bg-color-nopbaocao {
+                            background: rgb(116, 185, 255);
+                            background: linear-gradient(
+                                235deg,
+                                rgba(116, 185, 255, 1) 0%,
+                                rgba(116, 185, 255, 1) 35%,
+                                rgba(9, 132, 227, 1) 100%
+                            );
+                            border-radius: 8px;
+                            padding: 15px;
+                            cursor: pointer;
+                            color: #fff;
+                            transition-duration: 0.3s;
+                            &:hover {
+                                transform: scale(1.026, 1.026);
+                            }
+                        }
+                        &.bg-color-huongdan {
+                            background: rgb(250, 177, 160);
+                            background: linear-gradient(
+                                235deg,
+                                rgba(250, 177, 160, 1) 0%,
+                                rgba(250, 177, 160, 1) 35%,
+                                rgba(225, 112, 85, 1) 100%
+                            );
+                            border-radius: 8px;
+                            padding: 15px;
+                            cursor: pointer;
+                            color: #fff;
+                            transition-duration: 0.3s;
+                            &:hover {
+                                transform: scale(1.026, 1.026);
+                            }
+                        }
+                        &.bg-color-forum {
+                            background: rgb(255, 234, 167);
+                            background: linear-gradient(
+                                235deg,
+                                rgba(255, 234, 167, 1) 0%,
+                                rgba(255, 234, 167, 1) 35%,
+                                rgba(253, 203, 110, 1) 100%
+                            );
+                            border-radius: 8px;
+                            padding: 15px;
+                            cursor: pointer;
+                            color: #fff;
+                            transition-duration: 0.3s;
+                            &:hover {
+                                transform: scale(1.026, 1.026);
+                            }
+                        }
+                        &.bg-color-lienhe {
+                            background: rgb(255, 118, 117);
+                            background: linear-gradient(
+                                235deg,
+                                rgba(255, 118, 117, 1) 0%,
+                                rgba(255, 118, 117, 1) 35%,
+                                rgba(214, 48, 49, 1) 100%
+                            );
+                            border-radius: 8px;
+                            padding: 15px;
+                            cursor: pointer;
+                            color: #fff;
+                            transition-duration: 0.3s;
+                            &:hover {
+                                transform: scale(1.026, 1.026);
+                            }
+                        }
+                        .icon-diadiem {
+                            background: url(../../assets/icon-diadiem-2048px.png)
+                                center no-repeat;
+                            background-size: contain;
+                            display: flex;
+                            width: 60px;
+                            height: 60px;
+                            margin: auto;
+                            margin-bottom: 8px;
+                        }
+                        .icon-mauphieu {
+                            background: url(../../assets/icon-mauphieu-2048px.png)
+                                center center no-repeat;
+                            background-size: contain;
+                            display: flex;
+                            width: 60px;
+                            height: 60px;
+                            margin: auto;
+                            margin-bottom: 8px;
+                        }
+                        .icon-nopbaocao {
+                            background: url(../../assets/icon-nopbaocao-2048px.png)
+                                center center no-repeat;
+                            background-size: contain;
+                            display: flex;
+                            width: 60px;
+                            height: 60px;
+                            margin: auto;
+                            margin-bottom: 8px;
+                        }
+                        .icon-huongdan {
+                            background: url(../../assets/icon-huongdan-2048px.png)
+                                center center no-repeat;
+                            background-size: contain;
+                            display: flex;
+                            width: 60px;
+                            height: 60px;
+                            margin: auto;
+                            margin-bottom: 8px;
+                        }
+                        .icon-forum {
+                            background: url(../../assets/icon-forum-2048px.png)
+                                center center no-repeat;
+                            background-size: contain;
+                            display: flex;
+                            width: 60px;
+                            height: 60px;
+                            margin: auto;
+                            margin-bottom: 8px;
+                        }
+                        .icon-lienhe {
+                            background: url(../../assets/icon-lienhe-2048px.png)
+                                center center no-repeat;
+                            background-size: contain;
+                            display: flex;
+                            width: 60px;
+                            height: 60px;
+                            margin: auto;
+                            margin-bottom: 8px;
+                        }
+                    }
+                    .description {
+                        // border: 1px solid red;
+                        font-size: 16px;
+                        color: #1d2129;
+                        font-weight: 400;
+                        letter-spacing: 0.01em !important;
+                        // display: block;
+
+                        .banner-guide {
+                            background: url(../../assets/banner-guide.png)
+                                center center no-repeat;
+                            background-size: contain;
+                            display: flex;
+                            width: 100%;
+                            height: 300px;
+                            margin: auto;
+                            margin-bottom: 8px;
+                        }
+
+                        .guide-img {
+                            height: 100%;
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .footer-container {
+                    display: flex;
+                    position: relative;
+                    width: 100%;
+                    border-top: 1px solid #eee;
+                    // border: 1px solid red;
+                    border-radius: 8px;
+                    flex-direction: column;
+                    padding: 20px 0px;
+                    margin-bottom: 20px;
+                    margin-top: 50px;
+
+                    a {
+                        color: #6b6e73 !important;
+                        text-decoration: none !important;
+                        &:hover {
+                            transition: all 0.3s linear;
+                            color: #23527c !important;
+                        }
+                    }
+
+                    li {
+                        margin: 5px 0;
+                    }
+
+                    .text-bold {
+                        font-weight: 600 !important;
+                    }
+
+                    .row {
+                        .col-4 {
+                            padding: 0 15px !important;
+                        }
+                    }
+
+                    .header {
+                        font-weight: 600;
+                        font-size: 18px;
+                        margin-bottom: 15px;
+                    }
+
+                    .detail {
+                        font-size: 16px;
+                        color: #1d2129;
+                    }
+
+                    .list {
+                        display: flex;
+                        flex-direction: column;
+                        .list-item {
+                            display: flex;
+                            margin: 5px;
+                            text-align: center;
+                            align-items: center;
+                        }
+                        .icon-diadiem {
+                            background: url(../../assets/icon-diadiem-2048px.png)
+                                center no-repeat;
+                            background-size: contain;
+                            display: flex;
+                            width: 25px;
+                            height: 25px;
+                            margin-right: 10px;
+                        }
+                        .icon-mauphieu {
+                            background: url(../../assets/icon-mauphieu-2048px.png)
+                                center center no-repeat;
+                            background-size: contain;
+                            display: flex;
+                            width: 25px;
+                            height: 25px;
+                            margin-right: 10px;
+                        }
+                        .icon-nopbaocao {
+                            background: url(../../assets/icon-nopbaocao-2048px.png)
+                                center center no-repeat;
+                            background-size: contain;
+                            display: flex;
+                            width: 25px;
+                            height: 25px;
+                            margin-right: 10px;
+                        }
+                        .icon-huongdan {
+                            background: url(../../assets/icon-huongdan-2048px.png)
+                                center center no-repeat;
+                            background-size: contain;
+                            display: flex;
+                            width: 25px;
+                            height: 25px;
+                            margin-right: 10px;
+                        }
+                        .icon-forum {
+                            background: url(../../assets/icon-forum-2048px.png)
+                                center center no-repeat;
+                            background-size: contain;
+                            display: flex;
+                            width: 25px;
+                            height: 25px;
+                            margin-right: 10px;
+                        }
+                        .icon-lienhe {
+                            background: url(../../assets/icon-lienhe-2048px.png)
+                                center center no-repeat;
+                            background-size: contain;
+                            display: flex;
+                            width: 25px;
+                            height: 25px;
+                            margin-right: 10px;
+                        }
+                    }
+
+                    .support {
+                        margin-top: 20px;
+                        display: flex;
+                        justify-content: space-between;
+                        border-top: 1px solid #eee;
+                        padding-top: 20px;
+                        flex-wrap: wrap;
+
+                        .left {
+                            font-weight: 600;
+                            color: #808080;
+                            a {
+                                color: #1d2129 !important;
+                            }
+                        }
+
+                        .right {
+                            display: flex;
+                            justify-content: flex-end;
+                            margin: 0 -8px;
+                            flex-wrap: wrap;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.item-content {
+    // border: 1px solid red;
+    border: 1px solid #eee;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 10px 10px !important;
+
+    .guide-img {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+
+    .name {
+        text-align: center;
+        align-items: center;
+        width: auto;
+        margin: auto;
+        padding: 8px;
+    }
+}
+
+.card-data {
+    cursor: pointer;
+    transition-duration: 0.3s;
+    background-color: #dfe6e95e;
+    &:hover {
+        // border: 1px solid red;
+        transform: scale(1.03, 1.03);
+        // box-shadow: 0px 0px 20px #888888;
+    }
+    .fas {
+        // border: 1px solid red;
+        font-size: 14px;
+        margin-right: 7px;
+        padding-top: 5.5px;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        border-radius: 7px;
+        &.fa-users {
+            background-color: #e84393;
+            color: #fff;
+        }
+        &.fa-map-marker-alt {
+            background-color: #00b894;
+            color: #fff;
+        }
+        &.fa-thumbtack {
+            background-color: #6c5ce7;
+            color: #fff;
+        }
+        &.fa-address-card {
+            background-color: #ff7675;
+            color: #fff;
+        }
+    }
+}
+
+.centered {
+    position: absolute;
+    // top: 20%;
+    // left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-white {
+    color: #fff;
+}
+
+.non-underline {
+    text-decoration: none !important;
+}
